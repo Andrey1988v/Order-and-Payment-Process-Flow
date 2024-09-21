@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="24.7.13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="24.7.14" pages="2">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2074" dy="1190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -312,6 +312,145 @@
             <mxPoint x="1800" y="770" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P2plDFTvWi3py7M9k-RQ" name="Page-2">
+    <mxGraphModel dx="2074" dy="1190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-18" value="User" style="html=1;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="780" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-22" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};dashed=1;dashPattern=1 1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="100" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-24" value="Frontend_UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};dashed=1;dashPattern=1 1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="100" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-25" value="Frontend_UI" style="html=1;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="210" y="780" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-26" value="Backend_API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};dashed=1;dashPattern=1 1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="670" y="40" width="100" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-27" value="Backend_API" style="html=1;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="670" y="780" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-28" value="Payment_Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};dashed=1;dashPattern=1 1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="940" y="40" width="100" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-29" value="Payment_Service" style="html=1;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="940" y="780" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-30" value="Payment_Gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};dashed=1;dashPattern=1 1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="40" width="115" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-31" value="Payment_Gateway" style="html=1;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="780" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-32" value="Order_Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};dashed=1;dashPattern=1 1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="40" width="90" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-33" value="Order_Service" style="html=1;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="780" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-34" value="Cart_Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};dashed=1;dashPattern=1 1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="40" width="90" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-35" value="Cart_Service" style="html=1;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="780" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-39" value="Notification_Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};dashed=1;dashPattern=1 1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="40" width="120" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-40" value="Notification_Service" style="html=1;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1955" y="780" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-50" value="The user initiates a payment" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="pL7nAaihP5YpeA0CgD6f-24">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="180" as="sourcePoint" />
+            <mxPoint x="150" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-51" value="The frontend sends the payment request through the Backend API to the Payment Service" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="pL7nAaihP5YpeA0CgD6f-24" target="pL7nAaihP5YpeA0CgD6f-26">
+          <mxGeometry x="0.0015" width="80" relative="1" as="geometry">
+            <mxPoint x="330" y="270" as="sourcePoint" />
+            <mxPoint x="410" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="240" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-52" value="The Payment Service receives the payment request" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="pL7nAaihP5YpeA0CgD6f-26" target="pL7nAaihP5YpeA0CgD6f-28">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="800" y="270" as="sourcePoint" />
+            <mxPoint x="880" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-53" value="Submits a request for processing to Payment Gateway" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="pL7nAaihP5YpeA0CgD6f-30">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="990" y="320" as="sourcePoint" />
+            <mxPoint x="1070" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-54" value="The payment fails, and the Payment Gateway returns an error" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="pL7nAaihP5YpeA0CgD6f-30" target="pL7nAaihP5YpeA0CgD6f-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="380" as="sourcePoint" />
+            <mxPoint x="1090" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1130" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-55" value="The Payment Service notifies the Order Service that the payment failed" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="pL7nAaihP5YpeA0CgD6f-32">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="990" y="450" as="sourcePoint" />
+            <mxPoint x="1070" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-57" value="Order Service completes the saga rollback and updates the order status to &quot;Unpaid&quot;." style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="pL7nAaihP5YpeA0CgD6f-32" target="pL7nAaihP5YpeA0CgD6f-28">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="990" y="680" as="sourcePoint" />
+            <mxPoint x="1000" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-58" value="Order Service sends a request to restore items to the user&#39;s cart" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="pL7nAaihP5YpeA0CgD6f-32" target="pL7nAaihP5YpeA0CgD6f-34">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1480" y="480" as="sourcePoint" />
+            <mxPoint x="1550" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1650" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-61" value="Cart Service confirms that items have been restored to the cart" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="pL7nAaihP5YpeA0CgD6f-34" target="pL7nAaihP5YpeA0CgD6f-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1700" y="600" as="sourcePoint" />
+            <mxPoint x="1620" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1630" y="620" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pL7nAaihP5YpeA0CgD6f-62" value="Payment Service&amp;nbsp;sends a notification via the Notification Service about the failed payment." style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="pL7nAaihP5YpeA0CgD6f-28" target="pL7nAaihP5YpeA0CgD6f-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1360" y="610" as="sourcePoint" />
+            <mxPoint x="1440" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1400" y="730" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
